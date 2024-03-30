@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71214F0A2BB7B80D0091B7FB /* Neuromorphic_DoorbellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71214F092BB7B80D0091B7FB /* Neuromorphic_DoorbellApp.swift */; };
+		71214F0C2BB7B80D0091B7FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71214F0B2BB7B80D0091B7FB /* ContentView.swift */; };
+		71214F0E2BB7B80E0091B7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71214F0D2BB7B80E0091B7FB /* Assets.xcassets */; };
+		71214F122BB7B80E0091B7FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71214F112BB7B80E0091B7FB /* Preview Assets.xcassets */; };
+		71214F1C2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71214F1B2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.swift */; };
+		71214F262BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71214F252BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.swift */; };
+		71214F282BB7B80E0091B7FB /* Neuromorphic_DoorbellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71214F272BB7B80E0091B7FB /* Neuromorphic_DoorbellUITestsLaunchTests.swift */; };
+		71214F362BB7B9220091B7FB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71214F352BB7B9220091B7FB /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71214F182BB7B80E0091B7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71214EFE2BB7B80C0091B7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71214F052BB7B80C0091B7FB;
+			remoteInfo = Neuromorphic_Doorbell;
+		};
+		71214F222BB7B80E0091B7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71214EFE2BB7B80C0091B7FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71214F052BB7B80C0091B7FB;
+			remoteInfo = Neuromorphic_Doorbell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71156B4B2BB86BCC008F3724 /* Neuromorphic-Doorbell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Neuromorphic-Doorbell-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71214F062BB7B80D0091B7FB /* Neuromorphic_Doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neuromorphic_Doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71214F092BB7B80D0091B7FB /* Neuromorphic_DoorbellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromorphic_DoorbellApp.swift; sourceTree = "<group>"; };
+		71214F0B2BB7B80D0091B7FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71214F0D2BB7B80E0091B7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71214F0F2BB7B80E0091B7FB /* Neuromorphic_Doorbell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neuromorphic_Doorbell.entitlements; sourceTree = "<group>"; };
+		71214F112BB7B80E0091B7FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71214F172BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuromorphic_DoorbellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71214F1B2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromorphic_DoorbellTests.swift; sourceTree = "<group>"; };
+		71214F212BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neuromorphic_DoorbellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71214F252BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromorphic_DoorbellUITests.swift; sourceTree = "<group>"; };
+		71214F272BB7B80E0091B7FB /* Neuromorphic_DoorbellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromorphic_DoorbellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71214F352BB7B9220091B7FB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71214F032BB7B80C0091B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71214F362BB7B9220091B7FB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F142BB7B80E0091B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F1E2BB7B80E0091B7FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71214EFD2BB7B80C0091B7FB = {
+			isa = PBXGroup;
+			children = (
+				71214F082BB7B80D0091B7FB /* Neuromorphic_Doorbell */,
+				71214F1A2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests */,
+				71214F242BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests */,
+				71214F072BB7B80D0091B7FB /* Products */,
+				71214F342BB7B9210091B7FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71214F072BB7B80D0091B7FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71214F062BB7B80D0091B7FB /* Neuromorphic_Doorbell.app */,
+				71214F172BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.xctest */,
+				71214F212BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71214F082BB7B80D0091B7FB /* Neuromorphic_Doorbell */ = {
+			isa = PBXGroup;
+			children = (
+				71156B4B2BB86BCC008F3724 /* Neuromorphic-Doorbell-Info.plist */,
+				71214F092BB7B80D0091B7FB /* Neuromorphic_DoorbellApp.swift */,
+				71214F0B2BB7B80D0091B7FB /* ContentView.swift */,
+				71214F0D2BB7B80E0091B7FB /* Assets.xcassets */,
+				71214F0F2BB7B80E0091B7FB /* Neuromorphic_Doorbell.entitlements */,
+				71214F102BB7B80E0091B7FB /* Preview Content */,
+			);
+			path = Neuromorphic_Doorbell;
+			sourceTree = "<group>";
+		};
+		71214F102BB7B80E0091B7FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71214F112BB7B80E0091B7FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71214F1A2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests */ = {
+			isa = PBXGroup;
+			children = (
+				71214F1B2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.swift */,
+			);
+			path = Neuromorphic_DoorbellTests;
+			sourceTree = "<group>";
+		};
+		71214F242BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71214F252BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.swift */,
+				71214F272BB7B80E0091B7FB /* Neuromorphic_DoorbellUITestsLaunchTests.swift */,
+			);
+			path = Neuromorphic_DoorbellUITests;
+			sourceTree = "<group>";
+		};
+		71214F342BB7B9210091B7FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71214F352BB7B9220091B7FB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71214F052BB7B80C0091B7FB /* Neuromorphic_Doorbell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71214F2B2BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_Doorbell" */;
+			buildPhases = (
+				71214F022BB7B80C0091B7FB /* Sources */,
+				71214F032BB7B80C0091B7FB /* Frameworks */,
+				71214F042BB7B80C0091B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neuromorphic_Doorbell;
+			productName = Neuromorphic_Doorbell;
+			productReference = 71214F062BB7B80D0091B7FB /* Neuromorphic_Doorbell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71214F162BB7B80E0091B7FB /* Neuromorphic_DoorbellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71214F2E2BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_DoorbellTests" */;
+			buildPhases = (
+				71214F132BB7B80E0091B7FB /* Sources */,
+				71214F142BB7B80E0091B7FB /* Frameworks */,
+				71214F152BB7B80E0091B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71214F192BB7B80E0091B7FB /* PBXTargetDependency */,
+			);
+			name = Neuromorphic_DoorbellTests;
+			productName = Neuromorphic_DoorbellTests;
+			productReference = 71214F172BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71214F202BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71214F312BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_DoorbellUITests" */;
+			buildPhases = (
+				71214F1D2BB7B80E0091B7FB /* Sources */,
+				71214F1E2BB7B80E0091B7FB /* Frameworks */,
+				71214F1F2BB7B80E0091B7FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71214F232BB7B80E0091B7FB /* PBXTargetDependency */,
+			);
+			name = Neuromorphic_DoorbellUITests;
+			productName = Neuromorphic_DoorbellUITests;
+			productReference = 71214F212BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71214EFE2BB7B80C0091B7FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71214F052BB7B80C0091B7FB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					71214F162BB7B80E0091B7FB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 71214F052BB7B80C0091B7FB;
+					};
+					71214F202BB7B80E0091B7FB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 71214F052BB7B80C0091B7FB;
+					};
+				};
+			};
+			buildConfigurationList = 71214F012BB7B80C0091B7FB /* Build configuration list for PBXProject "Neuromorphic_Doorbell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71214EFD2BB7B80C0091B7FB;
+			productRefGroup = 71214F072BB7B80D0091B7FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71214F052BB7B80C0091B7FB /* Neuromorphic_Doorbell */,
+				71214F162BB7B80E0091B7FB /* Neuromorphic_DoorbellTests */,
+				71214F202BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71214F042BB7B80C0091B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71214F122BB7B80E0091B7FB /* Preview Assets.xcassets in Resources */,
+				71214F0E2BB7B80E0091B7FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F152BB7B80E0091B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F1F2BB7B80E0091B7FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71214F022BB7B80C0091B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71214F0C2BB7B80D0091B7FB /* ContentView.swift in Sources */,
+				71214F0A2BB7B80D0091B7FB /* Neuromorphic_DoorbellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F132BB7B80E0091B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71214F1C2BB7B80E0091B7FB /* Neuromorphic_DoorbellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71214F1D2BB7B80E0091B7FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71214F282BB7B80E0091B7FB /* Neuromorphic_DoorbellUITestsLaunchTests.swift in Sources */,
+				71214F262BB7B80E0091B7FB /* Neuromorphic_DoorbellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71214F192BB7B80E0091B7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71214F052BB7B80C0091B7FB /* Neuromorphic_Doorbell */;
+			targetProxy = 71214F182BB7B80E0091B7FB /* PBXContainerItemProxy */;
+		};
+		71214F232BB7B80E0091B7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71214F052BB7B80C0091B7FB /* Neuromorphic_Doorbell */;
+			targetProxy = 71214F222BB7B80E0091B7FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71214F292BB7B80E0091B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71214F2A2BB7B80E0091B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71214F2C2BB7B80E0091B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Neuromorphic_Doorbell/Neuromorphic_Doorbell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neuromorphic_Doorbell/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neuromorphic-Doorbell-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to communicate with nearby devices.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-Doorbell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71214F2D2BB7B80E0091B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Neuromorphic_Doorbell/Neuromorphic_Doorbell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neuromorphic_Doorbell/Preview Content\"";
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Neuromorphic-Doorbell-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to communicate with nearby devices.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-Doorbell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71214F2F2BB7B80E0091B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-DoorbellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuromorphic_Doorbell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuromorphic_Doorbell";
+			};
+			name = Debug;
+		};
+		71214F302BB7B80E0091B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-DoorbellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuromorphic_Doorbell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neuromorphic_Doorbell";
+			};
+			name = Release;
+		};
+		71214F322BB7B80E0091B7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-DoorbellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuromorphic_Doorbell;
+			};
+			name = Debug;
+		};
+		71214F332BB7B80E0091B7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3W98MYM85N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eileen.Neuromorphic-DoorbellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neuromorphic_Doorbell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71214F012BB7B80C0091B7FB /* Build configuration list for PBXProject "Neuromorphic_Doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71214F292BB7B80E0091B7FB /* Debug */,
+				71214F2A2BB7B80E0091B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71214F2B2BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_Doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71214F2C2BB7B80E0091B7FB /* Debug */,
+				71214F2D2BB7B80E0091B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71214F2E2BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_DoorbellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71214F2F2BB7B80E0091B7FB /* Debug */,
+				71214F302BB7B80E0091B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71214F312BB7B80E0091B7FB /* Build configuration list for PBXNativeTarget "Neuromorphic_DoorbellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71214F322BB7B80E0091B7FB /* Debug */,
+				71214F332BB7B80E0091B7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71214EFE2BB7B80C0091B7FB /* Project object */;
+}
