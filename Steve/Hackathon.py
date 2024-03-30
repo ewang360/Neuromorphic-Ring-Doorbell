@@ -4,6 +4,9 @@ import numpy as np
 def nothing(x):
     pass
 
+#config
+noiseReductionValueSpacial = 50
+
 kernel = np.array([[-1,-1,-1],[-1,8,-1],[-1,-1,-1]])
 camera = cv2.VideoCapture(0)
 spacial = 0
@@ -29,18 +32,21 @@ if camera.isOpened():
                 #do the thresholding
                 newFrame[np.where(newFrame<(PIX_OFF_THRESH))] = -127
                 newFrame[np.where(newFrame >(PIX_ON_THRESH))] = 128
-                diffChange = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY).astype('int') - cv2.cvtColor(frame1,cv2.COLOR_BGR2GRAY).astype('int')
-                negative = np.sum(diffChange < (PIX_OFF_THRESH))
-                positive = np.sum(diffChange > (PIX_ON_THRESH))
-                print(str(positive) + " " + str(negative))
-                if (positive > 10000):
-                    PIX_ON_THRESH+=1
-                if (negative > 10000):
-                    PIX_OFF_THRESH-=1
                 newFrame += 127
+                #use median blur to reduce background effects
+                diffMedianImage = cv2.medianBlur(diffFrame,3)
+                #get difference image
+                noiseImage = diffFrame - diffMedianImage
+                #determine the number of noise parts in image
+                negative = np.sum(noiseImage < (PIX_OFF_THRESH))
+                positive = np.sum(noiseImage > (PIX_ON_THRESH))
+                if (positive > noiseReductionValueSpacial):
+                    PIX_ON_THRESH+=2
+                if (negative > noiseReductionValueSpacial):
+                    PIX_OFF_THRESH-=2
                 cv2.imshow('SpacialImage', newFrame.astype('uint8'))
             else:
-                diffFrame = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY).astype('int') - cv2.cvtColor(frame1,cv2.COLOR_BGR2GRAY).astype('int')
+                diffFrame = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY).astype('int16') - cv2.cvtColor(frame1,cv2.COLOR_BGR2GRAY).astype('int16')
                 # do the thresholding
                 diffFrame[np.where(diffFrame < (PIX_OFF_THRESH))] = -127
                 diffFrame[np.where(diffFrame > (PIX_ON_THRESH))] = 128
@@ -52,4 +58,3 @@ if camera.isOpened():
                 break
             # get new frame1
             frame1 = frame2
-#make the dynamic ranges change with the number of events coming in
