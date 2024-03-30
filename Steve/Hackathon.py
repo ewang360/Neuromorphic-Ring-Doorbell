@@ -63,6 +63,8 @@ if camera.isOpened():
                 else:
                     PIX_OFF_THRESH_SPACIAL += 2
                 cv2.imshow('SpacialImage', newFrame.astype('uint8'))
+                #send event!!!!!!!!!!!!!!!!
+
             else:
                 cv2.imshow('SpacialImage', (np.zeros((diffFrame.shape[0],diffFrame.shape[1]))+127).astype('uint8'))
             if cv2.waitKey(1) & 0xFF == ord('q'):
