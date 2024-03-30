@@ -146,17 +146,21 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("BLE Peripheral Example")
-            Text("Received Message: \(receivedMessage)")
-            if let image = receivedImage {
-                Image(uiImage: image)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 256, height: 256)
-                    .clipped()
-            } else {
-                Text("No image received")
-            }
+            Text("Neuromorphic Wildlife Camera")
+                .font(.largeTitle)
+                .padding()
+            
+            Text("Detection Status: \(receivedMessage)")
+                .font(.title)
+                .padding()
+            
+            Spacer()
+            
+            Image(systemName: "person")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 300, height: 300)
+                .padding()
         }
         .onAppear {
             // Set the ContentView reference in the BLEPeripheralDelegate

@@ -47,8 +47,8 @@ async def send_image(address, image):
         await client.disconnect()
 
 address = "07F01346-B4E3-CDB7-789F-6F9FBAD10333"
-message = "Hello, j!"
+message = "Movement Detected!"
 
 # Run the function to send the message
 asyncio.run(send_message(address, message))
-asyncio.run(send_image(address, "example.jpg"))
+asyncio.run(send_message(address, ""))
